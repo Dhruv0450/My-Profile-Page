@@ -1202,6 +1202,13 @@ section,
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
 
+.skills .skill-box:hover{
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 60%);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 92%);
+}
+
+
 .skills .skill-box h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
